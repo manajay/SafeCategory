@@ -15,6 +15,16 @@
 		AE8CCCA51EEF925100DAF0DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8CCCA31EEF925100DAF0DE /* LaunchScreen.storyboard */; };
 		AE8CCCB01EEF925100DAF0DE /* SafeCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCAF1EEF925100DAF0DE /* SafeCategoryTests.m */; };
 		AE8CCCBB1EEF925100DAF0DE /* SafeCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCBA1EEF925100DAF0DE /* SafeCategoryUITests.m */; };
+		AE8CCCDE1EEF99EE00DAF0DE /* DDExtensionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCCB1EEF99EE00DAF0DE /* DDExtensionManager.m */; };
+		AE8CCCDF1EEF99EE00DAF0DE /* NSArray+DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCCD1EEF99EE00DAF0DE /* NSArray+DDLog.m */; };
+		AE8CCCE01EEF99EE00DAF0DE /* NSArray+DDSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCCF1EEF99EE00DAF0DE /* NSArray+DDSafe.m */; };
+		AE8CCCE11EEF99EE00DAF0DE /* NSDictionary+DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCD11EEF99EE00DAF0DE /* NSDictionary+DDLog.m */; };
+		AE8CCCE21EEF99EE00DAF0DE /* NSDictionary+DDSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCD31EEF99EE00DAF0DE /* NSDictionary+DDSafe.m */; };
+		AE8CCCE31EEF99EE00DAF0DE /* NSMutableArray+DDSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCD51EEF99EE00DAF0DE /* NSMutableArray+DDSafe.m */; };
+		AE8CCCE41EEF99EE00DAF0DE /* NSMutableDictionary+DDSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCD71EEF99EE00DAF0DE /* NSMutableDictionary+DDSafe.m */; };
+		AE8CCCE51EEF99EE00DAF0DE /* NSNumber+DDSafeComparser.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCD91EEF99EE00DAF0DE /* NSNumber+DDSafeComparser.m */; };
+		AE8CCCE61EEF99EE00DAF0DE /* NSString+DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCDB1EEF99EE00DAF0DE /* NSString+DDLog.m */; };
+		AE8CCCE71EEF99EE00DAF0DE /* NSString+DDSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCDD1EEF99EE00DAF0DE /* NSString+DDSafe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,27 @@
 		AE8CCCB61EEF925100DAF0DE /* SafeCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8CCCBA1EEF925100DAF0DE /* SafeCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeCategoryUITests.m; sourceTree = "<group>"; };
 		AE8CCCBC1EEF925100DAF0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8CCCCA1EEF99EE00DAF0DE /* DDExtensionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDExtensionManager.h; sourceTree = "<group>"; };
+		AE8CCCCB1EEF99EE00DAF0DE /* DDExtensionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDExtensionManager.m; sourceTree = "<group>"; };
+		AE8CCCCC1EEF99EE00DAF0DE /* NSArray+DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DDLog.h"; sourceTree = "<group>"; };
+		AE8CCCCD1EEF99EE00DAF0DE /* NSArray+DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DDLog.m"; sourceTree = "<group>"; };
+		AE8CCCCE1EEF99EE00DAF0DE /* NSArray+DDSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DDSafe.h"; sourceTree = "<group>"; };
+		AE8CCCCF1EEF99EE00DAF0DE /* NSArray+DDSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DDSafe.m"; sourceTree = "<group>"; };
+		AE8CCCD01EEF99EE00DAF0DE /* NSDictionary+DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DDLog.h"; sourceTree = "<group>"; };
+		AE8CCCD11EEF99EE00DAF0DE /* NSDictionary+DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DDLog.m"; sourceTree = "<group>"; };
+		AE8CCCD21EEF99EE00DAF0DE /* NSDictionary+DDSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DDSafe.h"; sourceTree = "<group>"; };
+		AE8CCCD31EEF99EE00DAF0DE /* NSDictionary+DDSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DDSafe.m"; sourceTree = "<group>"; };
+		AE8CCCD41EEF99EE00DAF0DE /* NSMutableArray+DDSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+DDSafe.h"; sourceTree = "<group>"; };
+		AE8CCCD51EEF99EE00DAF0DE /* NSMutableArray+DDSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+DDSafe.m"; sourceTree = "<group>"; };
+		AE8CCCD61EEF99EE00DAF0DE /* NSMutableDictionary+DDSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+DDSafe.h"; sourceTree = "<group>"; };
+		AE8CCCD71EEF99EE00DAF0DE /* NSMutableDictionary+DDSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+DDSafe.m"; sourceTree = "<group>"; };
+		AE8CCCD81EEF99EE00DAF0DE /* NSNumber+DDSafeComparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+DDSafeComparser.h"; sourceTree = "<group>"; };
+		AE8CCCD91EEF99EE00DAF0DE /* NSNumber+DDSafeComparser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+DDSafeComparser.m"; sourceTree = "<group>"; };
+		AE8CCCDA1EEF99EE00DAF0DE /* NSString+DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDLog.h"; sourceTree = "<group>"; };
+		AE8CCCDB1EEF99EE00DAF0DE /* NSString+DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDLog.m"; sourceTree = "<group>"; };
+		AE8CCCDC1EEF99EE00DAF0DE /* NSString+DDSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDSafe.h"; sourceTree = "<group>"; };
+		AE8CCCDD1EEF99EE00DAF0DE /* NSString+DDSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDSafe.m"; sourceTree = "<group>"; };
+		AE8CCCE81EEF9A9E00DAF0DE /* DDSafeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSafeHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +132,7 @@
 		AE8CCC941EEF925100DAF0DE /* SafeCategory */ = {
 			isa = PBXGroup;
 			children = (
+				AE8CCCC81EEF99EE00DAF0DE /* DDSDK */,
 				AE8CCC981EEF925100DAF0DE /* AppDelegate.h */,
 				AE8CCC991EEF925100DAF0DE /* AppDelegate.m */,
 				AE8CCC9B1EEF925100DAF0DE /* ViewController.h */,
@@ -138,6 +170,42 @@
 				AE8CCCBC1EEF925100DAF0DE /* Info.plist */,
 			);
 			path = SafeCategoryUITests;
+			sourceTree = "<group>";
+		};
+		AE8CCCC81EEF99EE00DAF0DE /* DDSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AE8CCCC91EEF99EE00DAF0DE /* Category */,
+			);
+			path = DDSDK;
+			sourceTree = "<group>";
+		};
+		AE8CCCC91EEF99EE00DAF0DE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AE8CCCCA1EEF99EE00DAF0DE /* DDExtensionManager.h */,
+				AE8CCCCB1EEF99EE00DAF0DE /* DDExtensionManager.m */,
+				AE8CCCCC1EEF99EE00DAF0DE /* NSArray+DDLog.h */,
+				AE8CCCCD1EEF99EE00DAF0DE /* NSArray+DDLog.m */,
+				AE8CCCCE1EEF99EE00DAF0DE /* NSArray+DDSafe.h */,
+				AE8CCCCF1EEF99EE00DAF0DE /* NSArray+DDSafe.m */,
+				AE8CCCD01EEF99EE00DAF0DE /* NSDictionary+DDLog.h */,
+				AE8CCCD11EEF99EE00DAF0DE /* NSDictionary+DDLog.m */,
+				AE8CCCD21EEF99EE00DAF0DE /* NSDictionary+DDSafe.h */,
+				AE8CCCD31EEF99EE00DAF0DE /* NSDictionary+DDSafe.m */,
+				AE8CCCD41EEF99EE00DAF0DE /* NSMutableArray+DDSafe.h */,
+				AE8CCCD51EEF99EE00DAF0DE /* NSMutableArray+DDSafe.m */,
+				AE8CCCD61EEF99EE00DAF0DE /* NSMutableDictionary+DDSafe.h */,
+				AE8CCCD71EEF99EE00DAF0DE /* NSMutableDictionary+DDSafe.m */,
+				AE8CCCD81EEF99EE00DAF0DE /* NSNumber+DDSafeComparser.h */,
+				AE8CCCD91EEF99EE00DAF0DE /* NSNumber+DDSafeComparser.m */,
+				AE8CCCDA1EEF99EE00DAF0DE /* NSString+DDLog.h */,
+				AE8CCCDB1EEF99EE00DAF0DE /* NSString+DDLog.m */,
+				AE8CCCDC1EEF99EE00DAF0DE /* NSString+DDSafe.h */,
+				AE8CCCDD1EEF99EE00DAF0DE /* NSString+DDSafe.m */,
+				AE8CCCE81EEF9A9E00DAF0DE /* DDSafeHeader.h */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +342,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE8CCC9D1EEF925100DAF0DE /* ViewController.m in Sources */,
+				AE8CCCE21EEF99EE00DAF0DE /* NSDictionary+DDSafe.m in Sources */,
 				AE8CCC9A1EEF925100DAF0DE /* AppDelegate.m in Sources */,
+				AE8CCCE71EEF99EE00DAF0DE /* NSString+DDSafe.m in Sources */,
 				AE8CCC971EEF925100DAF0DE /* main.m in Sources */,
+				AE8CCCE61EEF99EE00DAF0DE /* NSString+DDLog.m in Sources */,
+				AE8CCCE11EEF99EE00DAF0DE /* NSDictionary+DDLog.m in Sources */,
+				AE8CCCDE1EEF99EE00DAF0DE /* DDExtensionManager.m in Sources */,
+				AE8CCCE41EEF99EE00DAF0DE /* NSMutableDictionary+DDSafe.m in Sources */,
+				AE8CCCE51EEF99EE00DAF0DE /* NSNumber+DDSafeComparser.m in Sources */,
+				AE8CCCDF1EEF99EE00DAF0DE /* NSArray+DDLog.m in Sources */,
+				AE8CCCE01EEF99EE00DAF0DE /* NSArray+DDSafe.m in Sources */,
+				AE8CCCE31EEF99EE00DAF0DE /* NSMutableArray+DDSafe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
