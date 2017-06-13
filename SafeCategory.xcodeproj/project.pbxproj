@@ -25,6 +25,12 @@
 		AE8CCCE51EEF99EE00DAF0DE /* NSNumber+DDSafeComparser.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCD91EEF99EE00DAF0DE /* NSNumber+DDSafeComparser.m */; };
 		AE8CCCE61EEF99EE00DAF0DE /* NSString+DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCDB1EEF99EE00DAF0DE /* NSString+DDLog.m */; };
 		AE8CCCE71EEF99EE00DAF0DE /* NSString+DDSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCDD1EEF99EE00DAF0DE /* NSString+DDSafe.m */; };
+		AE8CCCEA1EEFB14A00DAF0DE /* NSArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCE91EEFB14A00DAF0DE /* NSArrayTests.m */; };
+		AE8CCCEC1EEFB2F900DAF0DE /* NSMutableArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCEB1EEFB2F900DAF0DE /* NSMutableArrayTests.m */; };
+		AE8CCCEE1EEFB81B00DAF0DE /* NSMutableDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCED1EEFB81B00DAF0DE /* NSMutableDictionaryTests.m */; };
+		AE8CCCF01EEFB96300DAF0DE /* NSNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCEF1EEFB96300DAF0DE /* NSNumberTests.m */; };
+		AE8CCCF21EEFBA6300DAF0DE /* NSStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCF11EEFBA6300DAF0DE /* NSStringTests.m */; };
+		AE8CCCF41EEFBAB600DAF0DE /* NSDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CCCF31EEFBAB600DAF0DE /* NSDictionaryTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +88,12 @@
 		AE8CCCDC1EEF99EE00DAF0DE /* NSString+DDSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDSafe.h"; sourceTree = "<group>"; };
 		AE8CCCDD1EEF99EE00DAF0DE /* NSString+DDSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDSafe.m"; sourceTree = "<group>"; };
 		AE8CCCE81EEF9A9E00DAF0DE /* DDSafeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSafeHeader.h; sourceTree = "<group>"; };
+		AE8CCCE91EEFB14A00DAF0DE /* NSArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayTests.m; sourceTree = "<group>"; };
+		AE8CCCEB1EEFB2F900DAF0DE /* NSMutableArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableArrayTests.m; sourceTree = "<group>"; };
+		AE8CCCED1EEFB81B00DAF0DE /* NSMutableDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableDictionaryTests.m; sourceTree = "<group>"; };
+		AE8CCCEF1EEFB96300DAF0DE /* NSNumberTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumberTests.m; sourceTree = "<group>"; };
+		AE8CCCF11EEFBA6300DAF0DE /* NSStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringTests.m; sourceTree = "<group>"; };
+		AE8CCCF31EEFBAB600DAF0DE /* NSDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +170,12 @@
 			isa = PBXGroup;
 			children = (
 				AE8CCCAF1EEF925100DAF0DE /* SafeCategoryTests.m */,
+				AE8CCCE91EEFB14A00DAF0DE /* NSArrayTests.m */,
+				AE8CCCEB1EEFB2F900DAF0DE /* NSMutableArrayTests.m */,
+				AE8CCCF31EEFBAB600DAF0DE /* NSDictionaryTests.m */,
+				AE8CCCED1EEFB81B00DAF0DE /* NSMutableDictionaryTests.m */,
+				AE8CCCEF1EEFB96300DAF0DE /* NSNumberTests.m */,
+				AE8CCCF11EEFBA6300DAF0DE /* NSStringTests.m */,
 				AE8CCCB11EEF925100DAF0DE /* Info.plist */,
 			);
 			path = SafeCategoryTests;
@@ -361,7 +379,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE8CCCEA1EEFB14A00DAF0DE /* NSArrayTests.m in Sources */,
+				AE8CCCF21EEFBA6300DAF0DE /* NSStringTests.m in Sources */,
+				AE8CCCEE1EEFB81B00DAF0DE /* NSMutableDictionaryTests.m in Sources */,
+				AE8CCCF41EEFBAB600DAF0DE /* NSDictionaryTests.m in Sources */,
 				AE8CCCB01EEF925100DAF0DE /* SafeCategoryTests.m in Sources */,
+				AE8CCCF01EEFB96300DAF0DE /* NSNumberTests.m in Sources */,
+				AE8CCCEC1EEFB2F900DAF0DE /* NSMutableArrayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
