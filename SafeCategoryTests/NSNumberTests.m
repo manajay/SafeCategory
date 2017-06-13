@@ -7,6 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "DDExtensionManager.h"
+#import "NSNumber+DDSafeComparser.h"
 
 @interface NSNumberTests : XCTestCase
 
@@ -17,6 +19,8 @@
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    [DDExtensionManager sharedInstance].enableSafeOperation = YES;
+
 }
 
 - (void)tearDown {
@@ -27,6 +31,11 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    [self testNSNumber_DDSafeComparser_isSafeEqualToNumber];
+}
+
+- (void)testNSNumber_DDSafeComparser_isSafeEqualToNumber{
+    [@1 isSafeEqualToNumber:nil];
 }
 
 - (void)testPerformanceExample {
